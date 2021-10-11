@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Contact us</title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/Contact-us.js"></script>
+
+</head>
+<body>
+
+    <!-- Headder-->
+  <!--Header Content-->
+  <header>
+    <img class="logo-icon" src="images/logo.jpg" />
+    <!--Top Buttons-->
+    <div class="top-buttons">
+      <a href="">
+        <div class="topbtn">
+          <img src="images/avatar.png" width="25px" alt="" />
+          <p>Login</p>
+        </div>
+      </a>
+      <a href="">
+        <div class="topbtn">
+          <img src="images/register.ico" width="25px" alt="" />
+          <p>Register</p>
+        </div>
+      </a>
+    </div>
+    <!--Side Buttons-->
+    <div class="topbtn profile">
+      <a href="">
+        <img src="images/user_logo.png" width="25px" alt="" />
+        <p>Profile</p>
+      </a>
+    </div>
+    <div class="topbtn cart">
+      <a href="">
+        <img src="images/cart_logo.png" width="25px" alt="" />
+        <p>Cart</p>
+      </a>
+    </div>
+    <!--Navigation Bar-->
+    <nav>
+      <ul class="main-ul ul1">
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="categories.html"> Categories </a></li>
+        <li><a href="deals.html"> Today's Deals </a></li>
+        <li><a href="contact.html"> Contact Us </a></li>
+        <li><a href="about.html"> About Us </a></li>
+      </ul>
+      <!--Search Bar-->
+      <input id="search" type="text" placeholder="Search" />
+      <button id="searchBtn">
+        <img class="seachico" src="images/s.webp" alt="" />
+      </button>
+    </nav>
+  </header>
+  <section>
+    
+<!--Hedder End-->
+<div class="content">
+    <div class="topic">
+    <h1>Contact us</h1>
+    <h4>We're here to help</h4> </div>
+   
+    <div class="all">
+    
+    <div class="call">
+    
+    <img class="call-icon" src="images/phone.png" width="50px" height="50px">
+    <h3> +94 11 1981981 </h3>
+    
+    </div>
+   
+    <br>
+   
+    <div class="message">
+    <img class="message-icon" src="images/message.png" width="50px" height="50px">
+    <h3> Ask a Question </h3>
+    <p> Our team member get back you in 24 hours <br> Email - grabandeat@gmail.com </p>
+    <a href="contact-tab.html"> <input type="button" value="Get Started"  class="get-started-btn"> </a> <br>
+    </div>
+    
+    <br>
+   
+    <div class="address">
+    <img class="address-icon" src="images/location.png" width="50px" height="50px">
+    <h3> No 62, <br> Gemunupura, <br> Malabe </h3>
+    </div>
+    
+    <br>
+   
+    <div class="map">
+        <!--Google Map emberd -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7765269280712!2d79.97542271406819!3d6.917299395001976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae256c36923c6f5%3A0x34e6c864741bd3d7!2sGamunupura%201st%20Ln%2C%20Malabe!5e0!3m2!1ssi!2slk!4v1587751553642!5m2!1ssi!2slk" width="780" height="340" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        
+    <br>
+    </div>    
+    <!--Social Meadia-->
+    <div class="social-media">
+        <a href="www.facebook.com"> <img class="fb-icon" src="images/fb.png" width="30px" height="30px"> </a>
+        <a href="www.instagram.com"> <img class="insa-icon" src="images/insta.png" width="30px" height="30px"> </a>
+        <a href="www.twitter.com"> <img class="twitter-icon" src="images/twitter.png" width="30px" height="30px"> </a>
+    </div>
+
+    <div class="contact-form">
+    <!--5 star rating-->
+    <div class="rate">
+        <h3>Rating</h3>
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text">1 star</label>
+        </div>
+    </dive>
+        <br>
+
+      <!--End of 5 star rating-->
+        <br>
+        <div class="feedback">
+        <form action="contact.php" method="POST">
+            <h3> Give us your Feedback and get more discount </h3>
+            <label for="email"><b>Email*</b></label><br>
+            <input type="email" name="email" id="email" placeholder="abc123@example.com">
+            <br>
+            
+            <label for="mes"><b>Message*</b></label><br>
+            <textarea name="mes" id="mes" cols="30" rows="5"></textarea>
+            <br>
+            <input type="submit" value="Submit" class="submit-btn " onclick="formValidation();">
+        </form>
+    </div>
+</div>
+</div>
+</div>
+
+
+<!--Footer Content-->
+<footer class="footer-container">
+  <!--Payment Methods-->
+  <div class="payment">
+    <p class="paytext">Payment Methods</p>
+    <br />
+    <img class="pay-img" src="images/payment_method.png" /><br />
+    <img class="cod" src="images/cod.png" />
+  </div>
+  <!--Newsletter Subscription Bar-->
+  <div class="newsletter">
+    <input id="news" type="email" placeholder="Email" />
+    <button class="subBtn">Subscribe</button>
+  </div>
+  <!--Available Platforms-->
+  <div class="mob-plat">
+    <img class="mob-img" src="images/mobile_platform.png" />
+  </div>
+</footer>
+<!--Copyright Statement-->
+<center class="copyright">
+  Copyright &copy; 2020 Grab&Eat - All Rights Reserved.
+</center>
+</body>
+</html>

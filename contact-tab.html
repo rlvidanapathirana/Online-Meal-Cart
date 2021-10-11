@@ -1,0 +1,39 @@
+<?php require_once('inc/connection.php') ?>
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Message Popup</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/code.js"></script>
+    <script type="text/javascript" src="js/Contact-us-tab.js"></script>
+</head>
+<body>
+    <div class="close-btn">
+    <a href="contact.html"> <img class="message-icon" src="images/close-btn.png" width="50px" height="50px"> </a>
+    </div>
+
+    <div class="mes-popup">
+    <form action="contact-us-tab.php" method="POST">
+        <label for="Your name"><b>Your Name*</b></label>
+        <br>
+        <input type="text" placeholder="Your name"name="name" id="name">
+        <br><br>
+
+        <label for="Email"><b>Email*</b></label>
+        <br>
+        <input type="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,3}" placeholder="abc123@example.com" name="email" id="email" required>
+        <br><br>
+
+        <label for="mes"> <b>Message*</b></label><br>
+        <textarea name="mes" id="mes" cols="30" rows="5"></textarea>
+        <br>
+        <input type="submit" value="Submit"  name="message" class="submit-btn " onclick="formValidation();">
+        <br>
+    
+</form>
+</div>
+</body>
+</html>
+<?php mysqli_close($connection); ?>
