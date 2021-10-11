@@ -1,0 +1,46 @@
+body{
+    background-image: url("../img/background Categories.jpg");
+    height:500px;
+    background-size: cover;
+    background-color: gray;
+    background-blend-mode: multiply;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 30px;
+	padding-top: 20px;
+	color: white;
+}
+
+.meal{
+	display: inline-block;
+	background-color: white;
+	border-radius: 5px;
+	margin: 10px;
+	font-weight: bold;
+}
+
+.mealImage{
+	height: 230px;
+	width: 230px;
+	margin: 10px;
+}
+
+.mealDetails{
+	margin: 10px;	
+}
+ 
+button{
+	width: 230px;
+	height: 35px;
+	background-color: black;
+	cursor: pointer;
+}
+button:hover{
+	background-color: brown;
+}
+
+.addToCart {
+    color: white;
+}
